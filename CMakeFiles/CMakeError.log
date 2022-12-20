@@ -1,0 +1,141 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: CMAKE_CXX_COMPILER-NOTFOUND 
+Build flags: 
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+No such file or directory
+
+
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
+Change Dir: /home/thanh/nlopt/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a7ca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a7ca.dir/build.make CMakeFiles/cmTC_1a7ca.dir/build
+gmake[1]: Entering directory '/home/thanh/nlopt/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a7ca.dir/src.c.o
+/usr/bin/cc -DHAVE_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_1a7ca.dir/src.c.o -c /home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c:4:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    4 |     int main(void) {
+      |                    ^
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c:2:5: warning: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c:2:28: error: declaration for parameter ‘tls’ but no such parameter
+    2 |     __declspec(thread) int tls;
+      |                            ^~~
+/home/thanh/nlopt/CMakeFiles/CMakeTmp/src.c:7: error: expected ‘{’ at end of input
+gmake[1]: *** [CMakeFiles/cmTC_1a7ca.dir/build.make:78: CMakeFiles/cmTC_1a7ca.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/thanh/nlopt/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_1a7ca/fast] Error 2
+
+
+Source file was:
+
+    __declspec(thread) int tls;
+
+    int main(void) {
+        return 0;
+    }

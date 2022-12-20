@@ -1,0 +1,3 @@
+/home/thanh/nlopt/CMakeTmp/UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/foo.dir
+/home/thanh/nlopt/CMakeTmp/UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/edit_cache.dir
+/home/thanh/nlopt/CMakeTmp/UNDEFINED_SYMBOLS_ALLOWED/CMakeFiles/rebuild_cache.dir
